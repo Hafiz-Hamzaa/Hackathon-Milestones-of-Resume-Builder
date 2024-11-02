@@ -1,0 +1,191 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(46, 45, 44);
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    background-color: rgba(236, 19, 200, 0);
+    /* border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border: 1px solid yellow;
+    box-shadow:0px 0px 6px 1px yellow
+}
+
+section {
+    /* background-color: #f2f2f2; */
+    background-color: rgba(236, 19, 200, 0);
+    padding: 20px;
+    margin-bottom: 20px;
+    /* border: 1px solid #ddd; */
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 10px 2px yellow;
+}
+
+#heading {
+    text-align: center;
+    color: white;
+}
+
+.sub-heading {
+    margin-top: 0;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="file"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#resume-preview {
+    margin-top: 40px;
+    outline: none;
+}
+
+.resume-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.resume-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-content p {
+    margin-bottom: 20px;
+}
+
+.resume-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resume-content li {
+    margin-bottom: 10px;
+}
+
+#profile-image {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+#download-pdf{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 15px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 0.70rem;
+    font-weight: 700;
+}
+
+/* Styling for Result */
+
+
+.resume-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(224, 218, 210, 0.849);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-section img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 15px 15px gainsboro;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+
+h1{
+    color: #c97c18;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c97c18;
+}
+
+h3 {
+    margin-top: 0;
+    color: blueviolet;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;color: black;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 40px 0;
+}
+p{
+    color: black;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+    }
+    section {
+        padding: 10px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"],input[type="file"], textarea {
+        padding: 5px;
+    }
+    button {
+        padding: 5px 10px;
+    }
+}
